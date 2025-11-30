@@ -11,7 +11,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # ============================================
 # PUT YOUR GOOGLE API KEY HERE
 # ============================================
-api_key = "AIzaSyA-Z-21As1dCSr76m7kgw2t1-O3KQ54mTQ"
+api_key = "Enter Your API Key"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 
@@ -143,3 +143,4 @@ if st.button("Get Answer"):
         st.write(answer)
     else:
         st.warning("Please enter a question.")
+
